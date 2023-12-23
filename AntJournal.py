@@ -2,6 +2,18 @@ import json
 import argparse
 from collections import defaultdict
 
+def print_title():
+    title = """
+                 _          _                              _ 
+     /\         | |        | |                            | |
+    /  \   _ __ | |_       | | ___  _   _ _ __ _ __   __ _| |
+   / /\ \ | '_ \| __|  _   | |/ _ \| | | | '__| '_ \ / _` | |
+  / ____ \| | | | |_  | |__| | (_) | |_| | |  | | | | (_| | |
+ /_/    \_\_| |_|\__|  \____/ \___/ \__,_|_|  |_| |_|\__,_|_|
+                                                             
+"""
+    print(title)
+
 def load_json(file_path):
     """ Load the JSON file """
     with open(file_path, 'r') as file:
@@ -51,6 +63,7 @@ def main(file_path):
             print(f" - {field}: {', '.join(types)}")  
 
 if __name__ == '__main__':
+    print_title()
     parser = argparse.ArgumentParser(description="Analyze the structure of a JSON file.")
     parser.add_argument('file_path', type=str, help='Path to the JSON file to analyze')
     
