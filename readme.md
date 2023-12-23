@@ -11,6 +11,10 @@ Welcome to AntJournal, a versatile tool for analyzing the structure of JSON file
 
 ## Installation 🛠️
 
+Make sure you have Python 3+ installed on your system. You can download it from the [Python official website](https://www.python.org/).
+
+Then, clone the repository and set up a virtual environment:
+
 ```bash
 # Clone the repository to your local machine
 git@github.com:KieranTravers/AntJournal.git
@@ -21,8 +25,6 @@ cd AntJournal
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-# Install the required dependencies
-pip3 install -r requirements.txt
 ```
 Usage 📖
 To use AntJournal, simply run the script followed by the path to the JSON file you wish to analyze:
