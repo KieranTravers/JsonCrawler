@@ -38,13 +38,15 @@ Example:
 python3 AntJournal.py test1.json
 ```
 
-Output
+Output:
+
+```bash
 Using file: test1.json
 No errors found. Field types:
  - id: int
  - name: str
  - value: float
-
+```
 # Analyze a file named `test1.json`
 python AntJournal.py test1.json
 
