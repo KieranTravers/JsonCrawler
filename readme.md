@@ -48,5 +48,27 @@ No errors found. Field types:
  - value: float
 ```
 
+Understanding Errors and Outputs
+When analyzing JSON files, AntJournal meticulously scans for and reports any irregularities or issues. Here are some common errors you might encounter:
+
+'field' is null: Indicates a null value for 'field'. Nulls might be intentional or represent missing data, but they can also disrupt data uniformity and processing.
+
+Inconsistent types for 'field': Highlights when values under the same field across different objects have varying data types. Uniform data types are crucial for consistent data processing and analysis.
+
+Sample Error Output:
+If you run AntJournal with a JSON file that has inconsistencies or issues, you might see output like this:
+
+```bash
+Errors found in JSON file:
+ - Item 2: 'website' is null
+ - Item 3: 'contact_number' is null
+ - Inconsistent types for 'name': {'str', 'int'}
+ - Inconsistent types for 'id': {'str', 'int'}
+ - Inconsistent types for 'website': {'str', 'NoneType'}
+ - Inconsistent types for 'contact_number': {'str', 'NoneType'}
+```
+
+This detailed reporting helps you understand exactly what needs attention, allowing for precise corrections and consistency in your JSON data.
+
 ## Written by✍️:
 https://github.com/KieranTravers
