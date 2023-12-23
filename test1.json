@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Business One",
+        "id": 101,
+        "website": "https://businessone.com",
+        "contact_number": "123-456-7890"
+    },
+    {
+        "name": "Business Two",
+        "id": "102", 
+        "website": null,
+        "contact_number": "123-456-7899"
+    },
+    {
+        "name": "Business Three",
+        "id": 103,
+        "website": "https://businessthree.com",
+        "contact_number": null 
+    },
+    {
+        "name": 104, 
+        "id": 104,
+        "website": "https://businessfour.com",
+        "contact_number": "123-456-7888"
+    }
+]
