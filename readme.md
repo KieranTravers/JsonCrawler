@@ -17,7 +17,7 @@ Then, clone the repository:
 
 ```bash
 # Clone the repository to your local machine
-git@github.com:KieranTravers/AntJournal.git
+git clone git@github.com:KieranTravers/AntJournal.git
 
 cd AntJournal
 ```
