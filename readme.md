@@ -1,6 +1,6 @@
-# AntJournal 🐜📓
+# JsonCrawler 🐜📓
 
-Welcome to AntJournal, a versatile tool for analyzing the structure of JSON files right from your command line!
+Welcome to JsonCrawler, a versatile tool for analyzing the structure of JSON files right from your command line!
 
 ## Features 🚀
 
@@ -17,22 +17,22 @@ Then, clone the repository:
 
 ```bash
 # Clone the repository to your local machine
-git clone git@github.com:KieranTravers/AntJournal.git
+git clone git@github.com:KieranTravers/JsonCrawler.git
 
-cd AntJournal
+cd JsonCrawler
 ```
 Usage 📖
-To use AntJournal, simply run the script followed by the path to the JSON file you wish to analyze:
+To use JsonCrawler, simply run the script followed by the path to the JSON file you wish to analyze:
 
 ```bash
-python3 AntJournal.py /path/to/yourfile.json
+python3 JsonCrawler.py /path/to/yourfile.json
 ```
 
 Example:
 
 ```bash
 # Analyze a file named `test1.json`
-python3 AntJournal.py test1.json
+python3 JsonCrawler.py test1.json
 ```
 
 Output:
